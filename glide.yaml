@@ -10,6 +10,7 @@ import:
   - /client
   - config
 - package: github.com/cloudfoundry/bosh-utils
+  version: 99c230d990674e484143e3b1452576912ab55380
   subpackages:
   - /blobstore
   - errors
