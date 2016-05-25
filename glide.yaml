@@ -1,0 +1,37 @@
+package: github.com/cloudfoundry/bosh-init
+import:
+- package: github.com/cloudfoundry/bosh-agent
+  subpackages:
+  - /agentclient
+  - agentclient/applyspec
+  - agentclient/http
+- package: github.com/cloudfoundry/bosh-davcli
+  subpackages:
+  - /client
+  - config
+- package: github.com/cloudfoundry/bosh-utils
+  subpackages:
+  - /blobstore
+  - errors
+  - fileutil
+  - httpclient
+  - logger
+  - logger/file
+  - property
+  - retrystrategy
+  - system
+  - uuid
+- package: github.com/golang/mock
+  subpackages:
+  - /gomock
+- package: github.com/onsi/ginkgo
+- package: github.com/onsi/gomega
+  subpackages:
+  - /gexec
+  - types
+- package: github.com/pivotal-golang/clock
+- package: github.com/pivotal-golang/yaml
+- package: golang.org/x/crypto
+  subpackages:
+  - /ssh
+- package: gopkg.in/yaml.v2
